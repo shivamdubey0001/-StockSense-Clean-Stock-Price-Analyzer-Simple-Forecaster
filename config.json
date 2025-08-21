@@ -1,0 +1,28 @@
+{
+  "app_name": "Stock Price Analyzer",
+  "version": "1.0",
+  "default_stock": "AAPL",
+  "currency": "USD",
+  "data_source": "yahoo_finance",
+  "update_interval_minutes": 15,
+
+  "logging": {
+    "enabled": true,
+    "log_file": "logs.csv",
+    "level": "INFO"
+  },
+
+  "output": {
+    "charts_folder": "output/charts",
+    "reports_folder": "output/reports",
+    "save_format": "png"
+  },
+
+  "alerts": {
+    "enabled": true,
+    "price_drop_threshold": 5,
+    "price_rise_threshold": 7,
+    "send_email": false,
+    "email_recipients": []
+  }
+}

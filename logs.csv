@@ -1,0 +1,9 @@
+timestamp,level,message
+2025-07-24 20:15:32,INFO,Program started successfully
+2025-07-24 20:15:33,WARNING,Missing data detected in stock file
+2025-07-24 20:15:34,ERROR,Failed to fetch live data from API
+2025-07-24 20:15:35,INFO,Retrying data fetch...
+2025-07-24 20:15:40,INFO,Data fetch completed successfully
+2025-07-24 20:16:00,INFO,Analytics module executed
+2025-07-24 20:16:20,INFO,Forecast generated and saved
+2025-07-24 20:16:45,INFO,Chart saved as output/price_trend.png
