@@ -40,7 +40,7 @@ StockSense/
 │── utils.py          # Helper functions
 │── logs.csv          # Keeps track of what you've analyzed
 └── data/             # Your downloaded stock data gets saved here
-    └── AAPL_2018-01-01_2025-08-21.csv  # Example cached data
+    └── AAPL_2018-01-01_2025-07-22.csv  # Example cached data
 ```
 
 ## 🚀 Quick Start
@@ -111,7 +111,7 @@ When you analyze a stock, you might see:
 
 ```
 📊 Analysis Snapshot
-Ticker: AAPL | Period: 2018-01-01 → 2025-08-21 | Rows: 1,845
+Ticker: AAPL | Period: 2018-01-01 → 2025-07-22 | Rows: 1,845
 Last Close: $224.15
 SMA20 vs SMA50: UP (bullish short-term trend)
 RSI(14): 62.4 (neutral-high momentum)  
